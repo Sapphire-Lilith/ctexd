@@ -27,6 +27,7 @@ ctexd [option] [dirname]
 
 		```txt
 		./[dirname]
+		├─data/
 		├─fig/
 		├─script/
 		├─src/

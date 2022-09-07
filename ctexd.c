@@ -59,6 +59,12 @@ void ctexd(ctexd_mode_t mode, char *dirname) {
 
 	switch (mode) {
 	case CTEXD_REPORT:
+			/* mkdir ./${DIRNAME}/data/ */
+		memset(dirpath, 0x0, DIRPATH_LEN);
+		snprintf(dirpath, DIRPATH_LEN, "./%s/data/", dirname);
+		mkdir(dirpath, 0755);
+		if (errno) { exit_errno(); }
+
 		/* mkdir ./${DIRNAME}/fig/ */
 		memset(dirpath, 0x0, DIRPATH_LEN);
 		snprintf(dirpath, DIRPATH_LEN, "./%s/fig/", dirname);
