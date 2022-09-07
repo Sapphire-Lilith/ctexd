@@ -17,7 +17,7 @@ ctexd [option] [dirname]
     - Create directories and files with the following structure.
 
 		```txt
-		./[dirname]
+		./[dirname]/
 		├─src/
 		└─main.tex
 		```
@@ -26,7 +26,7 @@ ctexd [option] [dirname]
     - Create directories and files with the following structure. (Please supplement the contents of the file with your own snippets or other information.)
 
 		```txt
-		./[dirname]
+		./[dirname]/
 		├─data/
 		├─fig/
 		├─script/
