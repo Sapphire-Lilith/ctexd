@@ -19,7 +19,7 @@ ctexd [option] [dirname]
 		```txt
 		./[dirname]
 		├─src/
-		├─main.tex
+		└─main.tex
 		```
 
 - `-r` (`--report`)
@@ -36,7 +36,7 @@ ctexd [option] [dirname]
 			├─04_discussion.tex
 			├─05_exercise.tex
 			└─06_reference.tex
-		├─main.tex
+		└─main.tex
 		```
 
 - (None)
