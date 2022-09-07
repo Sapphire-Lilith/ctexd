@@ -30,12 +30,12 @@ ctexd [option] [dirname]
 		├─fig/
 		├─script/
 		├─src/
-			├─01_purpose.tex
-			├─02_content.tex
-			├─03_result.tex
-			├─04_discussion.tex
-			├─05_exercise.tex
-			└─06_reference.tex
+		│	├─01_purpose.tex
+		│	├─02_content.tex
+		│	├─03_result.tex
+		│	├─04_discussion.tex
+		│	├─05_exercise.tex
+		│	└─06_reference.tex
 		└─main.tex
 		```
 
